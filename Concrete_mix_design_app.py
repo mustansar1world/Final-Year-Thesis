@@ -38,50 +38,6 @@ def prediction(scaled_input_features):
 
 def main():
 
-    ### This shows the greeting on the side bar depending upon the time
-
-
-    # greeting_message = ""
-    # current_hour = datetime.now().hour
-    # if 6 <= current_hour < 12:
-    #     greeting_message = "Good morning"
-    # elif 12 <= current_hour < 18:
-    #     greeting_message = "Good afternoon"
-    # else:
-    #     greeting_message = "Good evening"
-
-    # st.sidebar.write(f"# {greeting_message}!")
-
-
-    # ## This is introduce my self on the side bar
-    # def animated_into(intro_text):
-    
-    #     text_slot = st.sidebar.empty()
-    #     typed_text = ""
-    #     for char in intro_text:
-    #         typed_text += char
-    #         text_slot.markdown(f"<pre>{typed_text}</pre>", unsafe_allow_html=True)
-    #         time.sleep(0.01)
-    
-    # introduction = "Hello! Welcome to my streamlit app, I am Mustansar Hussain currently doing my bachlers in Civil Engineering"
-    # st.markdown(
-    # """
-    # <style>
-    # .sidebar .sidebar-content {
-    #     border-bottom: 1px solid #ccc;
-    # }
-    # </style>
-    # """,
-    # unsafe_allow_html=True)
-
-    # st.sidebar.title("Indroduction")
-    # animated_into(introduction)
-
-
-
-
-
-
     ###This is showing different tabs in the side bar
     with st.sidebar:
         option_click = option_menu(
