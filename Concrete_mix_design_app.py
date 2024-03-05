@@ -4,7 +4,7 @@ import streamlit as st
 from datetime import datetime
 import time
 from streamlit_option_menu import option_menu
-import sklearn 
+from sklearn.preprocessing import StandardScaler
 
 #This will scale complete data including input data and predicted data.
 
